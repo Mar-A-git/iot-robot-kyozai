@@ -14,7 +14,7 @@
 // 関数 =============================================================
 
 // LED点灯/消灯 --------------------------
-void ledWrite(bool on) {image.png
+void ledWrite(bool on) {
 
   if (on) {
     M5StackChan.setRgbColor(0, 168, 0, 0);   // 1個目を赤点灯
