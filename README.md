@@ -40,6 +40,7 @@ ch05_setup/          05章 開発環境の構築と簡単な操作
   led_delay/         1⃣ Delayを使ったLED点滅
   led_counter/       2⃣ カウンタを使ったLED点滅
   led_millis/        3⃣ 時間管理を使ったLED点滅
+  led_touch/         (5) ボタン入力（画面タッチでLEDをON/OFF）
 ```
 
 ## ライセンス
