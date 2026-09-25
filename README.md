@@ -41,6 +41,8 @@ ch05_setup/          05章 開発環境の構築と簡単な操作
   led_counter/       2⃣ カウンタを使ったLED点滅
   led_millis/        3⃣ 時間管理を使ったLED点滅
   led_touch/         (5) ボタン入力（画面タッチでLEDをON/OFF）
+ch06_how_it_works/   06章 プログラムと動作の仕組み
+  led_color/         (4) 1⃣ 全部のLEDを青く光らせる
 ```
 
 ## ライセンス
