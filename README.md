@@ -46,6 +46,7 @@ ch06_how_it_works/   06章 プログラムと動作の仕組み
   led_mycolor/       (4) 2⃣ 全部のLEDを好きな色で光らせる
   led_side/          (4) 3⃣ 片側6個のLEDだけ光らせる
   led_alternate/     (4) 4⃣ 左右6個ずつ交互に点滅
+  led_flow/          (4) 5⃣ LEDを1個ずつ順番に流して点灯
 ```
 
 ## ライセンス
