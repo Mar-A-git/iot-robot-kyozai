@@ -47,6 +47,8 @@ ch06_how_it_works/   06章 プログラムと動作の仕組み
   led_side/          (4) 3⃣ 片側6個のLEDだけ光らせる
   led_alternate/     (4) 4⃣ 左右6個ずつ交互に点滅
   led_flow/          (4) 5⃣ LEDを1個ずつ順番に流して点灯
+ch07_face_and_senses/ 07章 表情と感覚を作る
+  disp_text/         (2) 1⃣ 英数字を表示する
 ```
 
 ## ライセンス
