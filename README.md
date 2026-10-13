@@ -49,6 +49,10 @@ ch06_how_it_works/   06章 プログラムと動作の仕組み
   led_flow/          (4) 5⃣ LEDを1個ずつ順番に流して点灯
 ch07_face_and_senses/ 07章 表情と感覚を作る
   disp_text/         (2) 1⃣ 英数字を表示する
+  disp_japanese/     (2) 2⃣ 日本語を表示する
+  disp_name/         (2) 3⃣ 名前を画面の真ん中に表示する（参考例）
+  disp_scroll/       (2) 4⃣ 文字を横に流す（テロップ）
+  disp_scroll_v/     (2) 5⃣ 文字を縦に流す（縦テロップ・課題の解答例）
 ```
 
 ## ライセンス
