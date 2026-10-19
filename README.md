@@ -53,6 +53,7 @@ ch07_face_and_senses/ 07章 表情と感覚を作る
   disp_name/         (2) 3⃣ 名前を画面の真ん中に表示する（参考例）
   disp_scroll/       (2) 4⃣ 文字を横に流す（テロップ）
   disp_scroll_v/     (2) 5⃣ 文字を縦に流す（縦テロップ・課題の解答例）
+  disp_photo/        (3) 1⃣ microSDカードの写真（JPG）を表示する
 ```
 
 ## ライセンス
