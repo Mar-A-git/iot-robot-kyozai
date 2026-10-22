@@ -55,6 +55,7 @@ ch07_face_and_senses/ 07章 表情と感覚を作る
   disp_scroll_v/     (2) 5⃣ 文字を縦に流す（縦テロップ・課題の解答例）
   disp_photo/        (3) 1⃣ microSDカードの写真（JPG）を表示する
   disp_png/          (3) 2⃣ microSDカードの画像（PNG）を表示する（画像サンプル image.png 付き）
+  touch_xy/         (4) 1⃣ タッチした場所の座標を表示する
 ```
 
 ## ライセンス
