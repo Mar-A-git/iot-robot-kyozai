@@ -57,6 +57,8 @@ ch07_face_and_senses/ 07章 表情と感覚を作る
   disp_png/          (3) 2⃣ microSDカードの画像（PNG）を表示する（画像サンプル image.png 付き）
   touch_xy/          (4) 1⃣ タッチした場所の座標を表示する
   touch_area/        (4) 2⃣ 画面を4つに分けてボタンにする
+  face_four/         (5) 1⃣ 4つの表情を順番に表示する
+  face_touch/        (5) 2⃣ タッチした場所で表情を切り替える
 ```
 
 ## ライセンス
