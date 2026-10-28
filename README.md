@@ -59,6 +59,7 @@ ch07_face_and_senses/ 07章 表情と感覚を作る
   touch_area/        (4) 2⃣ 画面を4つに分けてボタンにする
   face_four/         (5) 1⃣ 4つの表情を順番に表示する
   face_touch/        (5) 2⃣ タッチした場所で表情を切り替える
+  face_stackchan/    (5) 3⃣ 本物のStackChanの表情を再現する（課題の見本）
 ```
 
 ## ライセンス
