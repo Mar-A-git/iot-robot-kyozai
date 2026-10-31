@@ -60,6 +60,7 @@ ch07_face_and_senses/ 07章 表情と感覚を作る
   face_four/         (5) 1⃣ 4つの表情を順番に表示する
   face_touch/        (5) 2⃣ タッチした場所で表情を切り替える
   face_stackchan/    (5) 3⃣ 本物のStackChanの表情を再現する（課題の見本）
+  head_sensor/       (6) 1⃣ 頭のセンサの強さを表示して、触れたらLEDを光らせる
 ```
 
 ## ライセンス
