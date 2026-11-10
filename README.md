@@ -62,6 +62,8 @@ ch07_face_and_senses/ 07章 表情と感覚を作る
   face_stackchan/    (5) 3⃣ 本物のStackChanの表情を再現する（課題の見本）
   head_sensor/       (6) 1⃣ 頭のセンサの強さを表示して、触れたらLEDを光らせる
   head_pat/          (6) 2⃣ 頭をなでると笑顔になってハートを出す
+ch08_lets_move/      08章 動かしてみる
+  head_lr/           (2) 1⃣ 首を左右に動かす
 ```
 
 ## ライセンス
