@@ -48,13 +48,13 @@ void headMove(unsigned char no) {
     M5StackChan.Motion.move(450, 300, 500);   // 右上へ（右45°、上30°）
   }
   else if (no == 1) {
-    M5StackChan.Motion.goHome(500);           // 正面に戻す
+    M5StackChan.Motion.move(0, 50, 500);      // 正面に戻す
   }
   else if (no == 2) {
     M5StackChan.Motion.move(-450, 300, 500);  // 左上へ（左45°、上30°）
   }
   else {
-    M5StackChan.Motion.goHome(500);           // 正面に戻す
+    M5StackChan.Motion.move(0, 50, 500);      // 正面に戻す
   }
 }
 
@@ -97,7 +97,7 @@ void setup() {
   M5StackChan.begin();
   Serial.begin(9600);                               // ｼﾘｱﾙﾓﾆﾀに文字を送る準備（9600bps）
   M5StackChan.showRgbColor(0, 0, 0);                // 起動時に光っているLEDを全部消灯
-  M5StackChan.Motion.goHome(500);                   // 正面（左右0°、上下0°）に戻す
+  M5StackChan.Motion.move(0, 50, 500);              // 正面（左右0°、上下5°）に戻す
   delay(2000);                                      // 戻るまで2秒待つ
 
   M5.Display.setFont(&fonts::FreeSansBold24pt7b);   // 太字の英字ﾌｫﾝﾄ

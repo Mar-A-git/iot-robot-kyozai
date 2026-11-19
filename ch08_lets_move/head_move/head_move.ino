@@ -51,13 +51,13 @@ void loop() {
     M5StackChan.Motion.move(450, 300, 500);           // 右上へ（右45°、上30°）（左右, 上下, 速さ）
     delay(2000);                                      // 2秒待つ
 
-    M5StackChan.Motion.goHome(500);                   // 正面（左右0°、上下0°）に戻す
+    M5StackChan.Motion.move(0, 50, 500);              // 正面（左右0°、上下5°）に戻す
     delay(2000);
 
     M5StackChan.Motion.move(-450, 300, 500);          // 左上へ（左45°、上30°）
     delay(2000);
 
-    M5StackChan.Motion.goHome(500);                   // 正面に戻す
+    M5StackChan.Motion.move(0, 50, 500);              // 正面に戻す
     delay(2000);
 
     gCount--;                                         // 1往復したので、残りを1つ減らす

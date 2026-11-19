@@ -57,7 +57,7 @@ void setup() {
 
   M5StackChan.begin();
   M5StackChan.showRgbColor(0, 0, 0);                // 起動時に光っているLEDを全部消灯
-  M5StackChan.Motion.goHome(500);                   // 正面（左右0°、上下0°）に戻す
+  M5StackChan.Motion.move(0, 50, 500);              // 正面（左右0°、上下5°）に戻す
   delay(2000);                                      // 戻るまで2秒待つ
 
   M5.Display.setFont(&fonts::FreeSansBold24pt7b);   // 太字の英字ﾌｫﾝﾄ
@@ -87,7 +87,7 @@ void loop() {
     // 3往復したら止めて、正面に戻す
     if (gCount == 0) {
       gIsMoving = false;
-      M5StackChan.Motion.goHome(500);         // 正面（左右0°、上下0°）に戻す
+      M5StackChan.Motion.move(0, 50, 500);    // 正面（左右0°、上下5°）に戻す
       drawScreen();                           // 「START」の画面にする
     }
   }

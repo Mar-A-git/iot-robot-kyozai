@@ -92,7 +92,7 @@ void swingHead() {
   if (gAngle >= SWING_MAX || gAngle <= -SWING_MAX) {
     gStep = -gStep;                                     // 端まで来たら向きを変える
   }
-  M5StackChan.Motion.move(gAngle, abs(gAngle), 1000);   // 上下の角度は、左右の角度の大きさと同じ
+  M5StackChan.Motion.move(gAngle, 50 + abs(gAngle), 1000);  // 上下は、5°に左右の角度の大きさを足す
 }
 
 // 初期設定 ============================================================
@@ -102,7 +102,7 @@ void setup() {
   M5StackChan.begin();
   M5StackChan.showRgbColor(0, 0, 0);                    // 起動時に光っているLEDを全部消灯
   M5StackChan.Motion.setAutoAngleSyncEnabled(false);    // 細かく指示しても、なめらかに動くようにする
-  M5StackChan.Motion.goHome(500);                       // 正面に戻す
+  M5StackChan.Motion.move(0, 50, 500);                  // 正面に戻す
   faceNormal();                                         // 最初はふつうの顔
 }
 
@@ -131,7 +131,7 @@ void loop() {
   else if (gIsHappy && nowTime - gHappyStart >= HAPPY_TIME) {
     faceNormal();                                       // ふつうの顔に戻す
     M5StackChan.showRgbColor(0, 0, 0);                  // LEDを消す
-    M5StackChan.Motion.goHome(500);                     // 首を正面に戻す
+    M5StackChan.Motion.move(0, 50, 500);                // 首を正面に戻す
     gAngle = 0;                                         // 首振りを最初からにする
     gStep = SWING_STEP;
     gIsHappy = false;
